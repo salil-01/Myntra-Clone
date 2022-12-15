@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myntra</title>
+    <link rel="stylesheet" href="/css/signup.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div>
+        <a href="homepage.html">
+          <img src="/images/myntra-logo-m-png-3.png" alt="Myntra" />
+        </a>
+      </div>
+      <div class="categories">
+        <ul>
+          <li class="men"><a href="#">men</a></li>
+          <li class="women"><a href="#">women</a></li>
+          <li class="kids"><a href="#">kids</a></li>
+          <li class="home"><a href="#">home living</a></li>
+          <li class="studio"><a href="#">studio</a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <img
+          src="/images/external-search-ecommerce-user-interface-inkubators-detailed-outline-inkubators.png"
+          alt=""
+        />
+        <input type="text" placeholder="Search for products, brands and more" />
+      </div>
+      <div class="end-content">
+        <div>
+          <a href="#"><img src="/images/heart.svg" alt="" /></a>
+          <a href="#"> <p>Wishlist</p></a>
+        </div>
+        <div>
+          <a href="#"> <img src="/images/bag.svg" alt="" /></a>
+          <a href="#"> <p>Bag</p></a>
+        </div>
+      </div>
+    </nav>
+    <div id="container">
+        <h2>CREATE NEW ACCOUNT</h2>
+      <form id="input-field">
+        <input type="text" id="username" placeholder="Username" required />
+        <input
+          type="number"
+          id="mobile"
+          placeholder="Mobile Number"
+          required
+        />
+        <input type="text" id="email" placeholder="Email id" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <input type="submit" id="signup" value="SIGN UP" >
+      </form>
+      <p>Already have an account <span><a id="click" href="/html/signin.html">click Here</a></span></p>
+    </div>
+  </body>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="/js/signup.js"></script>
+  
+</html>
