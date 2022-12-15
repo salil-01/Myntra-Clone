@@ -47,7 +47,7 @@
   font-size: 14px;
 }
 .end-content img {
-  height: 15px;
+  height: 16px;
 }
 .search {
   /* border: 1px solid red; */
@@ -74,9 +74,11 @@
   width: 10%;
   margin-left: 95px;
 }
-.end-content p {
+.end-content a {
   font-weight: 600;
   font-size: 12px;
+  text-decoration: none;
+  color: black;
 }
 .end-content img {
   width: 100%;
@@ -150,10 +152,32 @@
   margin: 10px 0px;
   font-weight: 600;
 }
+.drop-profile{
+  margin: 10px 0px;
+  /* border: 1px solid red; */
+  padding: 20px;
+  left: 83%;
+  
+}
+.drop-profile h3 {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.drop-profile button {
+  width: 100px;
+  height: 30px;
+  color: orangered;
+  margin-bottom: 4px;
+}
+.drop-profile button:hover{
+  border: 1px solid orangered;
+}
 
 /* top body */
 .top-body {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 98%;
@@ -166,7 +190,7 @@
 /* discount banner */
 .discount-banner1 {
   width: 99%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
 }
 .discount-banner1 img {
@@ -176,7 +200,7 @@
 /* omg deals */
 .omg-deals {
   width: 99%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
 }
 .omg-deals img {
@@ -188,11 +212,11 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 99%;
 }
 .ss-deals > div {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 80%;
   margin: auto;
   padding: 20px;
@@ -214,7 +238,7 @@
 }
 /* never seen before */
 .never-banner {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 99%;
 }
 .never-banner img {
@@ -224,11 +248,11 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 99%;
 }
 .never-seen > div {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 80%;
   margin: auto;
   padding: 20px;
@@ -251,7 +275,7 @@
 
 /* shop by category */
 .cat-banner {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 99%;
 }
 .cat-banner img {
@@ -260,7 +284,7 @@
 .shop-category {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 99%;
 }
 .shop-category > div {
