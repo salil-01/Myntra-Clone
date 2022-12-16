@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    position: fixed;
+    /* border: 1px solid red; */
+    top: 0;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    z-index: 10;
+    background-color: white;
+  }
+  .navbar > div:nth-child(1) {
+    /* border: 1px solid red; */
+    width: 8%;
+    margin-left: 30px;
+  }
+  .navbar > div a img {
+    width: 100%;
+  }
+  .categories {
+    width: 35%;
+    text-align: center;
+    /* border: 1px solid red; */
+    margin-left: 20px;
+  }
+  .categories ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    /* border: 1px solid red; */
+    text-transform: uppercase;
+    justify-content: space-around;
+  }
+  .categories a {
+    text-decoration: none;
+  }
+  .categories a {
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .end-content img {
+    height: 16px;
+  }
+  .search {
+    /* border: 1px solid red; */
+    width: 30%;
+    margin-left: 45px;
+  }
+  .search textarea:focus,
+  .search input:focus {
+    outline: none;
+  }
+  .search img {
+    width: 4%;
+    height: 18px;
+  }
+  .search input {
+    width: 60%;
+    margin: 0px 0px 2px 6px;
+    border: 0px;
+  }
+  .end-content {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    margin-left: 95px;
+  }
+  .end-content a {
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+  }
+  .end-content img {
+    width: 100%;
+  }
+  
+  /* dropdown css */
+  .hover-li {
+    display: none;
+    position: fixed;
+    top: 50px;
+    padding: 50px 10px 0px;
+    /* border: 1px solid red; */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    z-index: 20;
+  }
+  .hover-li li {
+    text-align: left;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+    list-style: none;
+    color: black;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    line-height: 30px;
+    -webkit-transition: left 0.2s ease-out, width 0.2s ease-out;
+    transition: left 0.2s ease-out, width 0.2s ease-out;
+  }
+  .hover-li li:hover{
+    font-weight: 500;
+  }
+  .hover-li a {
+    text-decoration: none;
+    color: black;
+  }
+  .hover-li h3{
+    color: orangered;
+    font-weight: 500;
+  }
+  .drop-men {
+    left: 10%;
+  }
+  .drop-women {
+    left: 15%;
+  }
+  .drop-kids {
+    left: 20%;
+  }
+  .drop-home {
+    left: 25%;
+  }
+  .drop-beauty {
+    left: 35%;
+  }
+  .drop-studio {
+    left: 35%;
+    width: 20%;
+    text-align: center;
+  }
+  .drop-studio div {
+    width: 100%;
+    margin: auto;
+  }
+  .drop-studio img {
+    width: 100%;
+  }
+  .drop-studio button {
+    padding: 10px;
+    margin: 10px 0px;
+    font-weight: 600;
+  }
+  .drop-profile{
+    margin: 10px 0px;
+    /* border: 1px solid red; */
+    padding: 20px;
+    left: 83%;
+    
+  }
+  .drop-profile h3 {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  .drop-profile button {
+    width: 100px;
+    height: 30px;
+    color: orangered;
+    margin-bottom: 4px;
+  }
+  .drop-profile button:hover{
+    border: 1px solid orangered;
+  }
+  /* contianer css */
+  .top-body{
+    margin: 7% 5px 5px 5px;
+    /* border: 1px solid red; */
+    padding: 10px;
+  }
+  .top-body span{
+    font-weight: 300;
+  }
+  .top-body > :nth-child(1){
+    margin-bottom: 5px;
+    font-size: 15px;
+   /* border: 1px solid red; */
+  }
+  .mid-body > div:nth-child(1){
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto 10px;
+  }
+  .flexbox{
+    display: flex;
+  }
+  .left-cont{
+    /* border: 1px solid red; */
+    width: 12%;
+    position: sticky;
+    top: 5px;
+    padding: 15px 0 0 30px;
+    /* margin: 15px 0px 0 0; */
+  }
+  .right-cont{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+
+  }
+  .right-cont > div{
+    padding: 10px;
+  }
+ 
+  .right-cont img{
+    width: 100%;
+  }
+  .right-cont h3{
+    font-size: 16px;
+    margin-left: 10px;
+    }
+  .right-cont p{
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: 300;
+    overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 5px;
+  }
+  .price{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .oldprice{
+    margin-left: 9px;
+    text-decoration: line-through;  
+    color: #7e818c;
+    font-size: 12px;
+
+  }
+  .discount{
+    margin-left: 10px;
+    color: #ff905a;
+    font-size: 12px;
+  }
+  .btn {
+    transform: translate(70%,-130%);
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    opacity: 1;
+    background: rgba(0, 0, 0, .6);
+    /* background-color: transparent; */
+    color:  white;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  .card:hover .btn{
+    opacity: 1;
+  }
+  @media (max-width: 767px) {
+    .search {
+      display: none;
+    }
+    .end-content {
+      display: none;
+    }
+    .categories {
+      width: 90%;
+    }
+    .navbar > div:nth-child(1) {
+      /* border: 1px solid red; */
+      width: 15%;
+      margin: 0;
+    }
+    .drop-men {
+      left: 15%;
+    }
+    .drop-women {
+      left: 25%;
+    }
+    .drop-kids {
+      left: 40%;
+    }
+    .drop-home {
+      left: 50%;
+    }
+    .drop-beauty {
+      left: 70%;
+    }
+    .drop-studio {
+      left: 80%;
+    }  
+    /* body css */
+    #cont{
+        margin: 20% auto 0;
+    }
+    .top-body{
+        margin: 20% auto 0;
+      }
+    
+}
