@@ -423,6 +423,7 @@ function firstBlock() {
   
   
 let tbody = document.querySelector(".right-cont");
+let wishListData = JSON.parse(localStorage.getItem("wishlist"))||[];
 
 //brand filter
 function filter(brand){
@@ -458,6 +459,7 @@ function createDom(data){
     tbody.innerHTML= null
     // console.log(data)
    data.forEach((element)=>{
+    // console.log(element)
     let card = document.createElement("div");
     let imgDiv = document.createElement("div");
     let image = document.createElement("img")
@@ -475,7 +477,7 @@ function createDom(data){
     price.innerText = "Rs." + element.price;
     oldprice.innerText =  element.oldprice;
     discount.innerText = "(" +element.discount + "%OFF" + ")";
-    wishlist.innerText = "wishlist"
+    wishlist.innerText = "wishlist 🖤"
 
     card.setAttribute("class", "card")
     image.setAttribute("src",element.img);
@@ -483,7 +485,36 @@ function createDom(data){
     oldprice.setAttribute("class","oldprice");
     discount.setAttribute("class", "discount");
     overlay.setAttribute("class", "overlay");
-    wishlist.setAttribute("class","btn")
+    wishlist.setAttribute("id","btn")
+
+    wishlist.addEventListener("click",()=>{
+     let isalreadyinwish = false;
+     for(let i=0;i<wishListData.length; i++){
+      if(wishListData[i].id==element.id){
+        isalreadyinwish = true;
+        break;
+      }
+     }
+     if(isalreadyinwish==true){
+      Swal.fire({
+        icon: 'error',
+        title: 'Product Already in Wishlist',
+        showConfirmButton: false,
+        width: "50%",
+        timer: 1400
+      })
+     }else{
+      wishListData.push(element);
+      localStorage.setItem("wishlist", JSON.stringify(wishListData));
+      Swal.fire({
+        icon: 'success',
+        title: 'Product Added in Wishlist',
+        showConfirmButton: false,
+        width: "50%",
+        timer: 1400
+      })
+     }
+    })
 
     imgDiv.append(image);
     card.append(imgDiv,wishlist,brandname,name,price,oldprice,discount)

@@ -334,49 +334,38 @@
 #footer li {
   font-weight: 300;
 }
+
 /* media queries */
-@media (max-width: 767px) {
+@media (max-width: 764px) {
   .search {
-    display: none;
+   width: 40%;
+   /* border: 1px solid red; */
+   margin-left: 10%;
+   margin-right: 0;
   }
-  .end-content {
-    display: none;
+  .search img {
+    width: 8%;
+    height: 20px;
+  }
+  .end-content{
+    /* border: 1px solid red; */
+    width: 25%;
+    margin-left: 8%;
   }
   .categories {
-    width: 90%;
+    display: none;
+    /* width: 90%; */
   }
-  .navbar > div:nth-child(1) {
-    /* border: 1px solid red; */
-    width: 15%;
-    margin: 0;
-  }
-  .drop-men {
-    left: 15%;
-  }
-  .drop-women {
-    left: 25%;
-  }
-  .drop-kids {
-    left: 40%;
-  }
-  .drop-home {
-    left: 50%;
-  }
-  .drop-beauty {
-    left: 70%;
-  }
-  .drop-studio {
-    left: 80%;
-  }
-  .top-body {
-    margin-top: 15%;
+  .mid{
+    margin-top: 18%;
   }
   .ss-deals {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     /* border: 1px solid red; */
     width: 98%;
+    margin: auto;
   }
   .ss-deals > div {
     /* border: 1px solid red; */
@@ -386,10 +375,11 @@
   }
   .never-seen {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     /* border: 1px solid red; */
     width: 98%;
+    margin: auto;
   }
   .never-seen > div {
     /* border: 1px solid red; */
@@ -399,9 +389,10 @@
   }
   .shop-category {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     /* border: 1px solid red; */
     width: 98%;
+    margin: auto;
   }
   .shop-category > div {
     width: 100%;
