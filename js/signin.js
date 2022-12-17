@@ -7,7 +7,7 @@ form.addEventListener("submit", (e) => {
       element.email == form.email.value &&
       element.password == form.password.value
     ) {
-      console.log(true)
+      // console.log(true)
         Swal.fire({
             icon: 'success',
             title: 'Login Successful',
@@ -15,7 +15,7 @@ form.addEventListener("submit", (e) => {
           })
       homepage();
     } else {
-      console.log(false)
+      // console.log(false)
       Swal.fire({
         icon: 'error',
         title: 'Wrong Credentials',

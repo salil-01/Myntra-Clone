@@ -82,75 +82,78 @@
   .end-content img {
     width: 100%;
   }
-  /* sign in body */
-  #container{
+
+  /* body */
+  .right-cont{
     /* border: 1px solid red; */
-    width: 25%;
-    margin: 7% auto;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 20px;
+    margin: 7% auto 0;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+
+  }
+  .right-cont > div{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+ 
+  .right-cont img{
+    width: 100%;
+  }
+  .right-cont h3{
+    margin-top: -20px;
+    font-size: 16px;
+    margin-left: 10px;
+    }
+  .right-cont p{
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: 300;
+    overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 5px;
+  }
+  .price{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .oldprice{
+    margin-left: 9px;
+    text-decoration: line-through;  
+    color: #7e818c;
+    font-size: 12px;
+
+  }
+  .discount{
+    margin-left: 10px;
+    color: #ff905a;
+    font-size: 12px;
+  }
+  #btn {
+    transform: translate(70%,-130%);
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.7);
+    /* background-color: transparent; */
+    color:  black;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .35s ease;
+    border: none;
     border-radius: 5px;
   }
-  #container h2{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
+  .card:hover #btn{
+    opacity: 1;
   }
-  #input-field {
-    padding: 10px 10%;
-    margin-top: 20px;
-  }
-  input {
-    border: 1px dotted #ff3f6c;
-    margin-bottom: 25px;
-    width: 100%;
-    height: 35px;
-    padding: 8px;
-    border-radius: 2px;
-  }
-  #container > :nth-child(4){
-    border: 1px solid red;
-    width: 80%;
-    margin: 20px auto 10px;
-  }
-  #signup {
-    width: 50%;
-    height: 40px;
-    margin: auto;
-    display: block;
-   color: black;
-    font-weight: 500;
-   background-color: white;
-    cursor: pointer;
-    border: none;
-    align-items: center;
-    padding: 10px;
-    font-size: 15px;
-    border-radius: 2px;
-  }
-  #signup:hover{
-     color: white;
-     background-color: #ff3f6c;
-  }
-  #alert {
-    color: red;
-    margin-left: 30px;
-  }
-  #container p{
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 30px;
-  }
-  #click{
-    text-decoration: none;
-    color: #ff3f6c;
-    font-weight: 700;
-  }
+
+  /* responsive */
   @media (max-width: 767px) {
-    #container {
-      width: 70%;
-      margin: 25% auto;
-    }
     .search {
       width: 40%;
       /* border: 1px solid red; */
@@ -163,12 +166,22 @@
      }
      .end-content{
        /* border: 1px solid red; */
-       width: 18%;
-       margin-left: 8%;
+       width: 15%;
+       margin-left: 10%;
      }
      .categories {
        display: none;
        /* width: 90%; */
      }
+    .right-cont{
+        margin: 18% auto 0;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        width: 98%;
+    }
+    #btn {
+        transform: translate(50%,-130%);
+    }
   }
   
