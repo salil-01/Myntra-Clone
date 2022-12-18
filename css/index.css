@@ -296,7 +296,7 @@
 }
 #footer {
   display: flex;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 80%;
   margin: auto;
   line-height: 30px;
@@ -332,7 +332,33 @@
   color: black;
 }
 #footer li {
+  font-weight: 300; 
+}
+#footer-end-content p{
   font-weight: 300;
+  /* border: 1px solid red; */
+}
+#footer-end-content hr{
+  margin-top: 3px;
+  background-color: gainsboro;
+  height: 1px;
+  border: none;
+ 
+}
+#footer-end-content > :nth-child(2) {
+  /* font-weight: 300; */
+  margin-bottom: 8px;
+  /* border: 1px solid red; */
+}
+#footer-end-content > :nth-child(3) {
+  /* font-weight: 300; */
+  margin-bottom: 8px;
+  /* border: 1px solid red; */
+}
+#footer-end-content > :nth-child(10) {
+  /* font-weight: 300; */
+  margin-bottom: 8px;
+  /* border: 1px solid red; */
 }
 
 /* media queries */

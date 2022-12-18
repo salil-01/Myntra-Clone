@@ -288,6 +288,72 @@
 .card:hover #btn {
   opacity: 1;
 }
+#footer {
+  display: flex;
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: 5% auto 0;
+  line-height: 30px;
+}
+#footer > :nth-child(1) {
+  /* border: 1px solid red; */
+  width: 20%;
+  margin: 0 auto;
+}
+#footer > :nth-child(2) {
+  /* border: 1px solid red; */
+  width: 20%;
+  margin: 0 auto;
+}
+#footer > :nth-child(3) {
+  /* border: 1px solid red; */
+  width: 30%;
+  margin: 0 auto;
+}
+#footer img {
+  width: 100%;
+}
+.coloumn div {
+  margin: 10px 50px;
+  width: 50%;
+  /* border: 1px solid red; */
+}
+#footer ul {
+  list-style: none;
+}
+#footer a {
+  text-decoration: none;
+  color: black;
+}
+#footer li {
+  font-weight: 300; 
+}
+#footer-end-content p{
+  font-weight: 300;
+  /* border: 1px solid red; */
+}
+#footer-end-content hr{
+  margin-top: 3px;
+  background-color: gainsboro;
+  height: 1px;
+  border: none;
+ 
+}
+#footer-end-content > :nth-child(2) {
+  /* font-weight: 300; */
+  margin-bottom: 8px;
+  /* border: 1px solid red; */
+}
+#footer-end-content > :nth-child(3) {
+  /* font-weight: 300; */
+  margin-bottom: 8px;
+  /* border: 1px solid red; */
+}
+#footer-end-content > :nth-child(10) {
+  /* font-weight: 300; */
+  margin-bottom: 8px;
+  /* border: 1px solid red; */
+}
 @media (max-width: 767px) {
   .search {
     width: 40%;
