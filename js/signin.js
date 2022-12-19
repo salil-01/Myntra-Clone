@@ -26,7 +26,7 @@ form.addEventListener("submit", (e) => {
 });
 let homepage = () => {
     let tID = setTimeout(function () {
-        window.location.href = "homepage.html";
+        window.location.href = "index.html";
         window.clearTimeout(tID);		// clear time out.
     }, 2000);
 }
