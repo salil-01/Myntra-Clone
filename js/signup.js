@@ -22,7 +22,7 @@ form.addEventListener("submit", (e) => {
 });
 let homepage = () => {
   let tID = setTimeout(function () {
-      window.location.href = "signin.html";
-      window.clearTimeout(tID);		// clear time out.
+    window.location.href = "signin.html";
+    window.clearTimeout(tID); // clear time out.
   }, 2000);
-}
+};

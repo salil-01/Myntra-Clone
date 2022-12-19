@@ -194,20 +194,20 @@
   width: 95%;
   margin: 0 auto 10px;
 }
-.mid-body hr{
+.mid-body hr {
   border: none;
   height: 1px;
   /* color: red; */
   /* width: 100%; */
   /* height: 10px; */
-  background-color: gainsboro; 
+  background-color: gainsboro;
 }
-.ProductSelectBy{
+.ProductSelectBy {
   /* border-color: gainsboro; */
   border: 1px solid gainsboro;
   padding: 4px;
 }
-.mid-body select{
+.mid-body select {
   border: none;
 }
 .flexbox {
@@ -231,7 +231,8 @@
 }
 .right-cont > div {
   /* padding: 10px; */
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .right-cont img {
@@ -283,7 +284,6 @@
   transition: opacity 0.35s ease;
   border: none;
   border-radius: 5px;
-
 }
 .card:hover #btn {
   opacity: 1;
@@ -326,18 +326,17 @@
   color: black;
 }
 #footer li {
-  font-weight: 300; 
+  font-weight: 300;
 }
-#footer-end-content p{
+#footer-end-content p {
   font-weight: 300;
   /* border: 1px solid red; */
 }
-#footer-end-content hr{
+#footer-end-content hr {
   margin-top: 3px;
   background-color: gainsboro;
   height: 1px;
   border: none;
- 
 }
 #footer-end-content > :nth-child(2) {
   /* font-weight: 300; */
@@ -360,20 +359,20 @@
     /* border: 1px solid red; */
     margin-left: 10%;
     margin-right: 0;
-   }
-   .search img {
-     width: 8%;
-     height: 20px;
-   }
-   .end-content{
-     /* border: 1px solid red; */
-     width: 25%;
-     margin-left: 8%;
-   }
-   .categories {
-     display: none;
-     /* width: 90%; */
-   }
+  }
+  .search img {
+    width: 8%;
+    height: 20px;
+  }
+  .end-content {
+    /* border: 1px solid red; */
+    width: 25%;
+    margin-left: 8%;
+  }
+  .categories {
+    display: none;
+    /* width: 90%; */
+  }
   /* body css */
   #cont {
     margin: 15% auto 0;
@@ -381,22 +380,22 @@
   .top-body {
     margin: 20% auto 20px;
   }
-  .mid-body{
+  .mid-body {
     width: 98%;
     margin: auto;
   }
-  .mid-body .country , .bundel{
+  .mid-body .country,
+  .bundel {
     display: none;
-    
   }
   .right-cont {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 98%;
     margin: auto;
     gap: 30px;
   }
-  .left-cont{
+  .left-cont {
     display: none;
   }
 }

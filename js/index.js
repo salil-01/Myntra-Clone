@@ -1,6 +1,7 @@
 function firstBlock() {
   document.querySelector(".men").addEventListener("mouseover", () => {
-    document.querySelector(".men").style.borderBottom = "5px solid rgb(6, 47, 109)";
+    document.querySelector(".men").style.borderBottom =
+      "5px solid rgb(6, 47, 109)";
     let drop = document.querySelector(".drop-men");
     drop.style.display = "flex";
     drop.style.width = "60%";
@@ -9,7 +10,8 @@ function firstBlock() {
   let drop = document.querySelector(".drop-men");
   drop.addEventListener("mouseover", function () {
     drop.style.display = "flex";
-    document.querySelector(".men").style.borderBottom = "5px solid rgb(6, 47, 109)";
+    document.querySelector(".men").style.borderBottom =
+      "5px solid rgb(6, 47, 109)";
     drop.addEventListener("mouseout", function () {
       drop.style.display = "none";
       document.querySelector(".men").style.borderBottom = "none";
@@ -28,12 +30,14 @@ function secondBlock() {
     drop.style.display = "flex";
     drop.style.width = "60%";
     drop.style.justifyContent = "space-around";
-    document.querySelector(".women").style.borderBottom = "5px solid rgb(6, 47, 109)";
+    document.querySelector(".women").style.borderBottom =
+      "5px solid rgb(6, 47, 109)";
   });
   let drop = document.querySelector(".drop-women");
   drop.addEventListener("mouseover", function () {
     drop.style.display = "flex";
-    document.querySelector(".women").style.borderBottom = "5px solid rgb(6, 47, 109)";
+    document.querySelector(".women").style.borderBottom =
+      "5px solid rgb(6, 47, 109)";
     drop.addEventListener("mouseout", function () {
       drop.style.display = "none";
       document.querySelector(".women").style.borderBottom = "none";
@@ -52,12 +56,14 @@ function thirdBlock() {
     drop.style.display = "flex";
     drop.style.width = "60%";
     drop.style.justifyContent = "space-around";
-    document.querySelector(".kids").style.borderBottom = "5px solid rgb(6, 47, 109)";
+    document.querySelector(".kids").style.borderBottom =
+      "5px solid rgb(6, 47, 109)";
   });
   let drop = document.querySelector(".drop-kids");
   drop.addEventListener("mouseover", function () {
     drop.style.display = "flex";
-    document.querySelector(".kids").style.borderBottom = "5px solid rgb(6, 47, 109)";
+    document.querySelector(".kids").style.borderBottom =
+      "5px solid rgb(6, 47, 109)";
     drop.addEventListener("mouseout", function () {
       drop.style.display = "none";
       document.querySelector(".kids").style.borderBottom = "none";
@@ -76,12 +82,14 @@ function fourthBlock() {
     drop.style.display = "flex";
     drop.style.width = "60%";
     drop.style.justifyContent = "space-around";
-    document.querySelector(".home").style.borderBottom = "5px solid rgb(6, 47, 109)";
+    document.querySelector(".home").style.borderBottom =
+      "5px solid rgb(6, 47, 109)";
   });
   let drop = document.querySelector(".drop-home");
   drop.addEventListener("mouseover", function () {
     drop.style.display = "flex";
-    document.querySelector(".home").style.borderBottom = "5px solid rgb(6, 47, 109)";
+    document.querySelector(".home").style.borderBottom =
+      "5px solid rgb(6, 47, 109)";
     drop.addEventListener("mouseout", function () {
       drop.style.display = "none";
       document.querySelector(".home").style.borderBottom = "none";
@@ -100,12 +108,14 @@ function fifthBlock() {
     drop.style.display = "flex";
     drop.style.width = "60%";
     drop.style.justifyContent = "space-around";
-    document.querySelector(".beauty").style.borderBottom = "5px solid rgb(6, 47, 109)";
+    document.querySelector(".beauty").style.borderBottom =
+      "5px solid rgb(6, 47, 109)";
   });
   let drop = document.querySelector(".drop-beauty");
   drop.addEventListener("mouseover", function () {
     drop.style.display = "flex";
-    document.querySelector(".beauty").style.borderBottom = "5px solid rgb(6, 47, 109)";
+    document.querySelector(".beauty").style.borderBottom =
+      "5px solid rgb(6, 47, 109)";
     drop.addEventListener("mouseout", function () {
       drop.style.display = "none";
       document.querySelector(".beauty").style.borderBottom = "none";

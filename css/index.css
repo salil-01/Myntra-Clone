@@ -84,7 +84,7 @@
   width: 100%;
 }
 
-/* dropdown css */
+/* dropdown comg */
 .hover-li {
   display: none;
   position: fixed;
@@ -109,14 +109,14 @@
   -webkit-transition: left 0.2s ease-out, width 0.2s ease-out;
   transition: left 0.2s ease-out, width 0.2s ease-out;
 }
-.hover-li li:hover{
+.hover-li li:hover {
   font-weight: 500;
 }
 .hover-li a {
   text-decoration: none;
   color: black;
 }
-.hover-li h3{
+.hover-li h3 {
   color: orangered;
   font-weight: 500;
 }
@@ -152,12 +152,11 @@
   margin: 10px 0px;
   font-weight: 600;
 }
-.drop-profile{
+.drop-profile {
   margin: 10px 0px;
   /* border: 1px solid red; */
   padding: 20px;
   left: 83%;
-  
 }
 .drop-profile h3 {
   font-size: 16px;
@@ -171,7 +170,7 @@
   color: orangered;
   margin-bottom: 4px;
 }
-.drop-profile button:hover{
+.drop-profile button:hover {
   border: 1px solid orangered;
 }
 
@@ -197,46 +196,15 @@
   width: 100%;
 }
 
-/* omg deals */
-.omg-deals {
+/* omg & never banner */
+.omg-banner {
   width: 99%;
   /* border: 1px solid red; */
   margin: 0 auto;
 }
-.omg-deals img {
+.omg-banner img {
   width: 100%;
 }
-
-/* super saving deals */
-.ss-deals {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  /* border: 1px solid red; */
-  width: 99%;
-}
-.ss-deals > div {
-  /* border: 1px solid red; */
-  width: 80%;
-  margin: auto;
-  padding: 20px;
-}
-.ss-deals img {
-  display: block;
-  margin: auto;
-  width: 80%;
-  height: auto;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-  border-radius: 5px;
-}
-.ss-deals img:hover {
-  width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-/* never seen before */
 .never-banner {
   /* border: 1px solid red; */
   width: 99%;
@@ -244,36 +212,38 @@
 .never-banner img {
   width: 100%;
 }
-.never-seen {
+/* super saving deals */
+.omg-deals {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   /* border: 1px solid red; */
   width: 99%;
 }
-.never-seen > div {
+.omg-deals > div {
   /* border: 1px solid red; */
   width: 80%;
   margin: auto;
   padding: 20px;
 }
-.never-seen img {
+.omg-deals img {
   display: block;
   margin: auto;
-  width: 80%;
+  width: 95%;
   height: auto;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
   border-radius: 5px;
 }
-.never-seen img:hover {
+.omg-deals img:hover {
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
-/* shop by category */
+.no-boxshadow img:hover {
+  box-shadow: none;
+}
 .cat-banner {
   /* border: 1px solid red; */
   width: 99%;
@@ -281,19 +251,66 @@
 .cat-banner img {
   width: 100%;
 }
-.shop-category {
+.cat-deals {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   /* border: 1px solid red; */
   width: 99%;
 }
-.shop-category > div {
+.cat-deals > div {
+  width: 100%;
+  margin: auto;
+  border: 1px solid red;
+}
+.cat-deals img {
+  width: 100%;
+}
+.newness-banner {
+  text-align: center;
+  margin: 4% 0px 2%;
+  font-size: 34px;
+  /* border: 1px solid red; */
+  /* height: 50px; */
+}
+.newness-deals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 99%;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+.newness-deals > div {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   width: 100%;
   margin: auto;
 }
-.shop-category img {
+.newness-deals img {
   width: 100%;
 }
+.gift-deals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 99%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  margin-bottom: 5%;
+}
+.gift-deals > div {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 100%;
+  margin: auto;
+}
+.gift-deals img {
+  width: 100%;
+}
+/* never seen before */
+
+/* shop by category */
+
 #footer {
   display: flex;
   /* border: 1px solid red; */
@@ -332,18 +349,17 @@
   color: black;
 }
 #footer li {
-  font-weight: 300; 
+  font-weight: 300;
 }
-#footer-end-content p{
+#footer-end-content p {
   font-weight: 300;
   /* border: 1px solid red; */
 }
-#footer-end-content hr{
+#footer-end-content hr {
   margin-top: 3px;
   background-color: gainsboro;
   height: 1px;
   border: none;
- 
 }
 #footer-end-content > :nth-child(2) {
   /* font-weight: 300; */
@@ -364,16 +380,16 @@
 /* media queries */
 @media (max-width: 764px) {
   .search {
-   width: 40%;
-   /* border: 1px solid red; */
-   margin-left: 10%;
-   margin-right: 0;
+    width: 40%;
+    /* border: 1px solid red; */
+    margin-left: 10%;
+    margin-right: 0;
   }
   .search img {
     width: 8%;
     height: 20px;
   }
-  .end-content{
+  .end-content {
     /* border: 1px solid red; */
     width: 25%;
     margin-left: 8%;
@@ -382,10 +398,10 @@
     display: none;
     /* width: 90%; */
   }
-  .mid{
+  .mid {
     margin-top: 18%;
   }
-  .ss-deals {
+  .omg-deals {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -393,7 +409,7 @@
     width: 98%;
     margin: auto;
   }
-  .ss-deals > div {
+  .omg-deals > div {
     /* border: 1px solid red; */
     width: 90%;
     margin: auto;
@@ -413,16 +429,30 @@
     margin: auto;
     padding: 10px;
   }
-  .shop-category {
+  .cat-deals {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* border: 1px solid red; */
     width: 98%;
     margin: auto;
   }
-  .shop-category > div {
+  .cat-deals > div {
     width: 100%;
     margin: auto;
+  }
+  .newness-deals {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 98%;
+    margin: auto;
+    /* border: 1px solid red; */
+  }
+  .gift-deals {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 98%;
+    margin: 0 auto 10%;
+    /* border: 1px solid red; */
   }
   #footer {
     width: 98%;
