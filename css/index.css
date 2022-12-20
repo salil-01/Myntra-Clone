@@ -8,7 +8,6 @@
 .navbar {
   display: flex;
   position: fixed;
-  /* border: 1px solid red; */
   top: 0;
   width: 100%;
   height: 80px;
@@ -17,7 +16,6 @@
   background-color: white;
 }
 .navbar > div:nth-child(1) {
-  /* border: 1px solid red; */
   width: 8%;
   margin-left: 30px;
 }
@@ -27,14 +25,12 @@
 .categories {
   width: 35%;
   text-align: center;
-  /* border: 1px solid red; */
   margin-left: 20px;
 }
 .categories ul {
   display: flex;
   list-style-type: none;
   align-items: center;
-  /* border: 1px solid red; */
   text-transform: uppercase;
   justify-content: space-around;
 }
@@ -44,13 +40,12 @@
 .categories a {
   color: black;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 1vw;
 }
 .end-content img {
   height: 16px;
 }
 .search {
-  /* border: 1px solid red; */
   width: 30%;
   margin-left: 45px;
 }
@@ -68,7 +63,6 @@
   border: 0px;
 }
 .end-content {
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   width: 10%;
@@ -76,7 +70,7 @@
 }
 .end-content a {
   font-weight: 600;
-  font-size: 12px;
+  font-size: 1vw;
   text-decoration: none;
   color: black;
 }
@@ -90,7 +84,6 @@
   position: fixed;
   top: 50px;
   padding: 50px 10px 0px;
-  /* border: 1px solid red; */
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
@@ -99,7 +92,7 @@
 .hover-li li {
   text-align: left;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 1vw;
   letter-spacing: 0.1px;
   list-style: none;
   color: black;
@@ -154,12 +147,11 @@
 }
 .drop-profile {
   margin: 10px 0px;
-  /* border: 1px solid red; */
   padding: 20px;
   left: 83%;
 }
 .drop-profile h3 {
-  font-size: 16px;
+  font-size: 1vw;
   color: black;
   margin-bottom: 8px;
   text-align: center;
@@ -176,7 +168,6 @@
 
 /* top body */
 .top-body {
-  /* border: 1px solid red; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 98%;
@@ -189,24 +180,23 @@
 /* discount banner */
 .discount-banner1 {
   width: 99%;
-  /* border: 1px solid red; */
   margin: 0 auto;
 }
 .discount-banner1 img {
   width: 100%;
 }
-
+.mid{
+  margin-top: 10%;
+}
 /* omg & never banner */
 .omg-banner {
   width: 99%;
-  /* border: 1px solid red; */
   margin: 0 auto;
 }
 .omg-banner img {
   width: 100%;
 }
 .never-banner {
-  /* border: 1px solid red; */
   width: 99%;
 }
 .never-banner img {
@@ -217,11 +207,9 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  /* border: 1px solid red; */
   width: 99%;
-}
+} 
 .omg-deals > div {
-  /* border: 1px solid red; */
   width: 80%;
   margin: auto;
   padding: 20px;
@@ -245,7 +233,6 @@
   box-shadow: none;
 }
 .cat-banner {
-  /* border: 1px solid red; */
   width: 99%;
 }
 .cat-banner img {
@@ -254,7 +241,6 @@
 .cat-deals {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* border: 1px solid red; */
   width: 99%;
 }
 .cat-deals > div {
@@ -268,9 +254,8 @@
 .newness-banner {
   text-align: center;
   margin: 4% 0px 2%;
-  font-size: 34px;
-  /* border: 1px solid red; */
-  /* height: 50px; */
+  font-size: 4vw;
+  
 }
 .newness-deals {
   display: grid;
@@ -278,7 +263,6 @@
   gap: 20px;
   width: 99%;
   margin: auto;
-  /* border: 1px solid red; */
 }
 .newness-deals > div {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
@@ -295,7 +279,6 @@
   gap: 20px;
   width: 99%;
   margin: 0 auto;
-  /* border: 1px solid red; */
   margin-bottom: 5%;
 }
 .gift-deals > div {
@@ -313,23 +296,23 @@
 
 #footer {
   display: flex;
-  /* border: 1px solid red; */
+ 
   width: 80%;
   margin: auto;
   line-height: 30px;
 }
 #footer > :nth-child(1) {
-  /* border: 1px solid red; */
+ 
   width: 20%;
   margin: 0 auto;
 }
 #footer > :nth-child(2) {
-  /* border: 1px solid red; */
+ 
   width: 20%;
   margin: 0 auto;
 }
 #footer > :nth-child(3) {
-  /* border: 1px solid red; */
+  
   width: 30%;
   margin: 0 auto;
 }
@@ -339,7 +322,7 @@
 .coloumn div {
   margin: 10px 50px;
   width: 50%;
-  /* border: 1px solid red; */
+
 }
 #footer ul {
   list-style: none;
@@ -353,7 +336,7 @@
 }
 #footer-end-content p {
   font-weight: 300;
-  /* border: 1px solid red; */
+ 
 }
 #footer-end-content hr {
   margin-top: 3px;
@@ -362,26 +345,24 @@
   border: none;
 }
 #footer-end-content > :nth-child(2) {
-  /* font-weight: 300; */
+ 
   margin-bottom: 8px;
-  /* border: 1px solid red; */
+  
 }
 #footer-end-content > :nth-child(3) {
-  /* font-weight: 300; */
+ 
   margin-bottom: 8px;
-  /* border: 1px solid red; */
+
 }
 #footer-end-content > :nth-child(10) {
-  /* font-weight: 300; */
+  
   margin-bottom: 8px;
-  /* border: 1px solid red; */
 }
 
 /* media queries */
 @media (max-width: 764px) {
   .search {
     width: 40%;
-    /* border: 1px solid red; */
     margin-left: 10%;
     margin-right: 0;
   }
@@ -390,13 +371,14 @@
     height: 20px;
   }
   .end-content {
-    /* border: 1px solid red; */
     width: 25%;
     margin-left: 8%;
   }
   .categories {
     display: none;
-    /* width: 90%; */
+  }
+  .top-body {
+    width: 98%;
   }
   .mid {
     margin-top: 18%;
@@ -405,12 +387,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    /* border: 1px solid red; */
     width: 98%;
     margin: auto;
   }
   .omg-deals > div {
-    /* border: 1px solid red; */
     width: 90%;
     margin: auto;
     padding: 10px;
@@ -419,12 +399,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    /* border: 1px solid red; */
     width: 98%;
     margin: auto;
   }
   .never-seen > div {
-    /* border: 1px solid red; */
     width: 90%;
     margin: auto;
     padding: 10px;
@@ -432,7 +410,6 @@
   .cat-deals {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* border: 1px solid red; */
     width: 98%;
     margin: auto;
   }
@@ -445,14 +422,12 @@
     grid-template-columns: repeat(3, 1fr);
     width: 98%;
     margin: auto;
-    /* border: 1px solid red; */
   }
   .gift-deals {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 98%;
     margin: 0 auto 10%;
-    /* border: 1px solid red; */
   }
   #footer {
     width: 98%;
@@ -461,6 +436,83 @@
   .coloumn > div {
     margin: 10px auto;
     width: 70%;
-    /* border: 1px solid red; */
+  }
+}
+@media (max-width: 499px) {
+  .navbar{
+    width: 98%;
+  }
+  .search {
+    width: 40%;
+    margin-left: 7%;
+    margin-right: 0;
+  }
+  .search img {
+    width: 8%;
+    height: 20px;
+  }
+  .end-content {
+    width: 25%;
+    margin-left: 1%;
+  }
+  .categories {
+    display: none;
+    /* width: 90%; */
+  }
+  .discount-banner1{
+    width: 98%;
+  }
+  .mid {
+    margin-top: 24%;
+  }
+  .omg-deals {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 98%;
+  }
+  .omg-deals > div {
+    width: 90%;
+    padding: 10px;
+  }
+  .never-seen {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 98%;
+  }
+  .never-seen > div {
+    width: 90%;
+    padding: 10px;
+  }
+  .cat-deals {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 98%;
+    margin: auto;
+  }
+  .cat-deals > div {
+    width: 98%;
+    margin: auto;
+  }
+  .newness-deals {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 98%;
+    margin: auto;
+  }
+  .gift-deals {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 98%;
+    margin: 0 auto 10%;
+  }
+  #footer {
+    width: 90%;
+    line-height: 23px;
+  }
+  .coloumn > div {
+    margin: 10px auto;
+    width: 70%;
   }
 }

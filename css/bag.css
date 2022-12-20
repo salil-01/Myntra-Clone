@@ -4,22 +4,18 @@
 }
 #navbar {
   display: flex;
-  /* border: 1px solid red; */
   align-items: center;
   justify-content: space-between;
 }
 #navbar > :nth-child(1) {
-  /* border: 1px solid red; */
   width: 10%;
 }
 .myntraLogo {
   width: 100%;
   margin-left: 10px;
-  /* border: 1px solid red; */
 }
 
 .navRight {
-  /* border: 1px solid red; */
   text-align: center;
 }
 a,
@@ -38,10 +34,13 @@ h4 {
   justify-content: space-around;
 }
 .right-cont {
-  /* border: 1px solid red; */
   width: 60%;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    font-size: 1vw;
+}
+.right-cont button{
+  font-size: 1vw;
 }
 #remove {
   border: 1px solid red;
@@ -51,7 +50,6 @@ h4 {
   border-radius: 4px;
 }
 .left-cont {
-  /* border: 1px solid red; */
   width: 25%;
 }
 .top-right {
@@ -67,7 +65,6 @@ h4 {
 }
 .total > h3 {
   text-align: center;
-  /* border: 1px solid red; */
   display: inline-block;
   margin-left: 20%;
 }
@@ -84,16 +81,13 @@ h4 {
   width: 100%;
 }
 .card > :nth-child(1) {
-  /* border: 1px solid red; */
   width: 25%;
 }
 .card > :nth-child(2) {
-  /* border: 1px solid red; */
   width: 70%;
 }
 .oldprice {
   margin-right: 20px;
-  /* border: 1px solid red; */
   text-decoration: line-through;
 }
 .discount {
@@ -109,100 +103,96 @@ h4 {
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   padding: 5%;
   text-align: center;
+  font-size: 1vw;
+}
+.left-cont button{
+  font-size: 1vw;
 }
 .left-cont > :nth-child(1) {
   grid-column-start: 1;
   grid-column-end: 3;
-  /* border: 1px solid red; */
   text-align: center;
 }
 .left-cont > :nth-child(2) {
   grid-column-start: 1;
   grid-column-end: 2;
-  /* border: 1px solid red; */
   width: 100%;
 }
 .left-cont > :nth-child(3) {
   grid-column-start: 2;
   grid-column-end: 3;
-  /* border: 1px solid red; */
   height: 40px;
-  /* background-color: #ff3f6c; */
+
   margin: auto;
 }
 .left-cont > :nth-child(4) {
   grid-column-start: 1;
   grid-column-end: 3;
-  /* border: 1px solid red; */
 }
 .left-cont > :nth-child(5) {
   grid-column-start: 1;
   grid-column-end: 2;
-  /* border: 1px solid red; */
 }
 .left-cont > :nth-child(6) {
   grid-column-start: 2;
   grid-column-end: 3;
-  /* border: 1px solid red; */
 }
 .left-cont > :nth-child(7) {
   grid-column-start: 1;
   grid-column-end: 2;
-  /* border: 1px solid red; */
+  
 }
 .left-cont > :nth-child(8) {
   grid-column-start: 2;
   grid-column-end: 3;
-  /* border: 1px solid red; */
+  
 }
 .left-cont > :nth-child(9) {
   grid-column-start: 1;
   grid-column-end: 2;
-  /* border: 1px solid red; */
+  
 }
 .left-cont > :nth-child(10) {
   grid-column-start: 2;
   grid-column-end: 3;
-  /* border: 1px solid red; */
+  
   text-align: center;
 }
 .left-cont > :nth-child(11) {
   grid-column-start: 1;
   grid-column-end: 2;
-  /* border: 1px solid red; */
-  /* text-align: center; */
+  
 }
 .left-cont > :nth-child(12) {
   grid-column-start: 2;
   grid-column-end: 3;
-  /* border: 1px solid red; */
+  
   text-align: center;
-  /* background-color: #ff3f6c; */
+
   height: 40px;
 
-  /* width: 35%; */
+
   margin: auto;
 }
 .left-cont > :nth-child(13) {
   grid-column-start: 1;
   grid-column-end: 2;
-  /* border: 1px solid red; */
+ 
 }
 .left-cont > :nth-child(14) {
   grid-column-start: 2;
   grid-column-end: 3;
-  /* border: 1px solid red; */
+
 }
 .left-cont > :nth-child(15) {
   grid-column-start: 1;
   grid-column-end: 2;
-  /* border: 1px solid red; */
+ 
 }
 .left-cont > :nth-child(17) {
   grid-column-start: 1;
   grid-column-end: 3;
-  /* border: 1px solid red; */
-  /* background-color: #ff3f6c; */
+  
   text-align: center;
   width: 40%;
   margin: 20px auto;
@@ -223,11 +213,29 @@ button:hover {
   }
   #navbar {
     margin-bottom: 30px;
+    width: 98%;
   }
   .right-cont {
     width: 40%;
   }
   .left-cont {
     width: 40%;
+  }
+}
+@media (max-width: 499px) {
+  .navRight {
+    display: none;
+  }
+  #navbar {
+    margin-bottom: 30px;
+  }
+  .flexbox{
+    width: 98%;
+  }
+  .right-cont {
+    width: 30%;
+  }
+  .left-cont {
+    width: 30%;
   }
 }
